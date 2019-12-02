@@ -12,6 +12,9 @@
     <elmProjects />
     <settings elmCompilerPath="" elmFormatPath="" elmTestPath="" isElmFormatOnSaveEnabled="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TndyWVigSjmeDJKh8Vvh77eVxS" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
