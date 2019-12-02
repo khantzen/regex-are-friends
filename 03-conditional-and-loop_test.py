@@ -12,17 +12,18 @@ class ConditionalAndLoopTest(unittest.TestCase):
 
     # a{n} will match a n times
     def test_acollade_match_the_value_n_time(self):
-        pattern = r'your regex here'
+        pattern = r'k{5}'
         assert regex.match(pattern, 'kkkkk')
 
     # a{,n} will match a maximum n times
     def test_acollade_with_coma_match_value_at_max_n_times(self):
-        pattern = r'your regex here'
+        pattern = r'e{,5}'
         assert regex.match(pattern, 'e')
         assert regex.match(pattern, 'ee')
         assert regex.match(pattern, 'eee')
         assert regex.match(pattern, 'eeee')
         assert regex.match(pattern, 'eeeee')
+
 
 if __name__ == '__main__':
     unittest.main()
