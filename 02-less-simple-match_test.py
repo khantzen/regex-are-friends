@@ -59,3 +59,6 @@ class LessSimpleMatchTest(unittest.TestCase):
 
         assert search_1['last_number'] == '90'
         assert search_2['last_number'] == '32'
+
+if __name__ == '__main__':
+    unittest.main()
