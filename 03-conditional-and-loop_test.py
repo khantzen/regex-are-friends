@@ -24,5 +24,14 @@ class ConditionalAndLoopTest(unittest.TestCase):
         assert regex.match(pattern, 'eeee')
         assert regex.match(pattern, 'eeeee')
 
+    def test_acollade_with_coma_match_value_at_max_n_times_2(self):
+        pattern = r'your regex here'
+        assert regex.match(pattern, '-')
+        assert regex.match(pattern, '-_')
+        assert regex.match(pattern, '-_-')
+        assert regex.match(pattern, '-_-"')
+        assert regex.match(pattern, '-_-"/')
+
+
 if __name__ == '__main__':
     unittest.main()
